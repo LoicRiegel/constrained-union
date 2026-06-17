@@ -1,0 +1,12 @@
+[project]
+name = "constrained-union"
+version = "0.1.0"
+description = "A mypy plugin to validate at type checking time that all variants of a union type implements a protocol"
+readme = "README.md"
+authors = [{ name = "Loïc Riegel", email = "loic.riegel@outlook.fr" }]
+requires-python = ">=3.12"
+dependencies = ["mypy >= 2.1.0, < 2.2.0"]
+
+[build-system]
+requires = ["uv_build>=0.10.2,<0.11.0"]
+build-backend = "uv_build"

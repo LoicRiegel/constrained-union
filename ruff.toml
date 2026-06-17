@@ -1,0 +1,56 @@
+line-length = 120
+namespace-packages = ["examples"]
+
+[lint]
+select = [
+    "ERA",
+    "ANN",
+    "BLE",
+    "B",
+    "A",
+    "C4",
+    "DTZ",
+    "T10",
+    "FA",
+    "ISC",
+    "ICN",
+    "INP",
+    "PIE",
+    "T20",
+    "PT",
+    "Q",
+    "RET",
+    "SIM",
+    "TID",
+    "TC",
+    "ARG",
+    "A",
+    "PTH",
+    "FLY",
+    "I",
+    "C90",
+    "N",
+    "PERF",
+    "E",
+    "W",
+    "D",
+    "F",
+    "PGH",
+    "PL",
+    "UP",
+    "FURB",
+    "RUF",
+]
+ignore = ["D101", "D102", "D203", "D213"]
+fixable = ["ALL"]
+unfixable = []
+
+[lint.isort]
+split-on-trailing-comma = false
+
+[format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
+docstring-code-line-length = 80
+skip-magic-trailing-comma = true
