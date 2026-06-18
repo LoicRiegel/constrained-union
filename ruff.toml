@@ -1,5 +1,5 @@
 line-length = 120
-namespace-packages = ["examples"]
+namespace-packages = ["tests"]
 
 [lint]
 select = [
