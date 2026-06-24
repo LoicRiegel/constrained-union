@@ -3,7 +3,10 @@ name = "constrained-union"
 version = "0.1.0"
 description = "A mypy plugin to validate at type checking time that all variants of a union type implements a protocol"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [{ name = "Loïc Riegel", email = "loic.riegel@outlook.fr" }]
+maintainers = [{ name = "Loïc Riegel", email = "loic.riegel@outlook.fr" }]
 requires-python = ">=3.12"
 dependencies = ["mypy >= 2.1.0, < 2.2.0"]
 keywords = ["type-checking", "union", "protocol", "mypy", "plugin"]
@@ -18,6 +21,9 @@ classifiers = [
     "Framework :: Mypy",
     "Topic :: Software Development :: Type Checking",
 ]
+
+[project.urls]
+Repository = "https://github.com/LoicRiegel/constrained-union"
 
 [dependency-groups]
 dev = ["pytest>=9.1.0,<10", "prek >=0.4.5, <1", "ruff >=0.15.17, <1"]
